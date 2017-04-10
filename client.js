@@ -25,6 +25,7 @@ window.onerror = function(message, url, lineNumber){
   return true;
 }
 
+var ipns = 'QmTNjTQy6sGFG39VSunS4v1UZRfPFevtGzHwr2h1xfa5Bh'; // IPNS for comments
 
 var gateways = ['gateway.ipfs.io', '127.0.0.1:8080']; /* Domain and port of ipfs gateway, protocol is assumed and forced to be https except in the case of 127.0.0.1*/
 var inserts = ['crypto.chaoswebs.net/ipfs-comments/insert.php']; /* domain and port and path of insert script, forced to be https*/
